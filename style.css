@@ -1,0 +1,96 @@
+body{
+  background-color: #000000;
+  color: white;
+}
+.titleimg{
+  width: 4rem;
+  margin-right: 65rem;
+}
+
+.bg-primary{
+  background-color:#000000!important;
+  }
+
+  .homescreenimg{
+    position: relative;
+    margin-top: 8rem;
+  }
+
+.homeimg{
+  position: absolute;
+  z-index: -20rem;
+  width: 90rem;
+  height: 40rem;
+}
+
+.mainimgcaption{
+  position: absolute;
+  z-index: 20;
+  width: 20rem;
+  height: 4rem;
+  background-color: #290628!important;
+  color: white;
+  margin-top: 35rem;
+  margin-left: 5rem;
+  border-radius: 1rem;
+}
+
+.titlecaption{
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+.flex-container{
+  position: relative;
+  top: 50rem;
+  display: flex;
+  text-align: center;
+}
+.flex-child{
+  flex: 1;
+}
+.explanation{
+  /* background-color: #290628; */
+}
+.aboutusimg{
+  width: 40rem;
+}
+.imgexpl{
+  /* width: 60%; */
+  padding: 10rem;
+  padding-top: 17rem;
+}
+.grid-container{
+  position: relative;
+  top: 60rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+.grid-child{
+  border: .3rem solid white;
+  border-radius: 10%;
+  text-align: center;
+  margin: 2rem;
+}
+.teampic{
+  width: 20rem;
+}
+#contact{
+  position: relative;
+  top: 70rem;
+  text-align: center;
+  padding-bottom: 17rem;
+}
+#exampleInputEmail1{
+  border-radius: 1rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.submitBtn{
+  background-color:#290628!important;
+  margin-bottom: 3rem;
+}
